@@ -1,0 +1,66 @@
+/* ExpensesPage.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e9; 
+    margin: 0;
+    padding: 0;
+}
+
+.expenses-page h2 {
+    color: #2e7d32; 
+    text-align: center;
+    padding: 20px;
+}
+
+.expenses-page h3 {
+    color: #000;
+    text-align: center;
+}
+
+.expenses-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.expenses-page form div {
+    margin-bottom: 10px;
+}
+
+.expenses-page label {
+    margin-right: 10px;
+    color: #000;
+}
+
+.expenses-page input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.expenses-page button {
+    padding: 10px 20px;
+    background-color: #2e7d32; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.expenses-page button:hover {
+    background-color: #1b5e20; 
+}
+
+.expenses-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.expenses-page li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+}

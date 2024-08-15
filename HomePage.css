@@ -1,0 +1,53 @@
+/* HomePage.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e9; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2e7d32; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e7d32; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1b5e20; 
+}
+
+nav a:active {
+    color: #388e3c; 
+}
+
+
+div {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
